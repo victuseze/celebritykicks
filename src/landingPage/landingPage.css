@@ -1,0 +1,20 @@
+.entire{
+    background-color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style: none;
+    margin-left: 2rem;
+}
+nav li a {
+    text-decoration: none;
+}
