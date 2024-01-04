@@ -1,11 +1,13 @@
-.entire{
+/* .entire{
     background-color: orange;
-}
+} */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1.4rem;
+    background-color: orange;
+    color: white;
 }
 nav{
     display: flex;
@@ -17,4 +19,36 @@ nav li{
 }
 nav li a {
     text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
 }
+
+/* hero */
+.hero-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+.hero-text{
+    font-size: 2.6rem;
+}
+button{
+    color: white;
+    background-color: orangered;
+    border: transparent;
+    border-radius: 6px;
+    padding: 0.6rem 2rem;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+.hero-text span{
+    color: green;
+}
+
+/* dark */
+.dark{
+    background-color: black;
+    height: 20vh;
+}
+

@@ -1,5 +1,6 @@
 import React from 'react'
 import './landingPage.css'
+import Hero from '../assets/hero-image.png'
 
 function LandingPage() {
   return (
@@ -17,6 +18,20 @@ function LandingPage() {
                     <li><a href="">Services</a></li>
                 </nav>
             </div>
+        </div>
+        <div className="hero-page">
+            <div className="hero-text">
+                <h2>Confidence In Every Step</h2>
+                <h2>Footwear for <span>Go-getters</span></h2>
+                <button>Go Shopping</button>
+            </div>
+            <div className="hero-image">
+                <img src={Hero} alt="" />
+                <p>...Transforming every step into a legacy</p>
+            </div>
+        </div>
+        <div className="dark">
+            
         </div>
     </div>
   )
