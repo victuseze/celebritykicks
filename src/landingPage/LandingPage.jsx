@@ -19,39 +19,15 @@ function LandingPage() {
                 </nav>
             </div>
         </div>
-        <div className="hero-pages-slider">
-            <div className="hero-page carousel__item--selected">
-                <div className="hero-text">
-                    <h2>Confidence In Every Step</h2>
-                    <h2>Footwear for <span>Go-getters</span></h2>
-                    <button>Go Shopping</button>
-                </div>
-                <div className="hero-image">
-                    <img src={Hero} alt="" />
-                    <p>...Transforming every step into a legacy</p>
-                </div>
+        <div className="hero-page">
+            <div className="hero-text">
+                <h2>Confidence In Every Step</h2>
+                <h2>Footwear for <span>Go-getters</span></h2>
+                <button>Go Shopping</button>
             </div>
-            <div className="hero-page">
-                <div className="hero-text">
-                    <h2>Confidence In Every Step</h2>
-                    <h2>Footwear for <span>Go-getters</span></h2>
-                    <button>Go Shopping</button>
-                </div>
-                <div className="hero-image">
-                    <img src={Hero} alt="" />
-                    <p>...Transforming every step into a legacy</p>
-                </div>
-            </div>
-            <div className="hero-page">
-                <div className="hero-text">
-                    <h2>Confidence In Every Step</h2>
-                    <h2>Footwear for <span>Go-getters</span></h2>
-                    <button>Go Shopping</button>
-                </div>
-                <div className="hero-image">
-                    <img src={Hero} alt="" />
-                    <p>...Transforming every step into a legacy</p>
-                </div>
+            <div className="hero-image">
+                <img src={Hero} alt="" />
+                <p>...Transforming every step into a legacy</p>
             </div>
         </div>
         <div className="dark">

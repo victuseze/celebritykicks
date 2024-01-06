@@ -22,43 +22,33 @@ nav li a {
     font-size: 1.2rem;
     color: white;
 }
-.hero-pages-slider{
-    display: flex;
-}
 
 /* hero */
 .hero-page{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
-    padding: 3rem;
-    display: none;
-}
-.carousel__item--selected{
-    display: flex;
+    height: 85vh;
 }
 .hero-text{
     font-size: 2.6rem;
 }
 button{
-    color: white;
-    background-color: orangered;
-    border: transparent;
-    border-radius: 3px;
+    color: black;
+    border: 2px orangered solid;
+    border-radius: 2px;
     padding: 0.6rem 2rem;
     margin-top: 4rem;
     font-size: 1.2rem;
+    cursor: pointer;
+    background-color: white;
 }
 .hero-text span{
     color: green;
 }
-.hero-image{
-    width: 30vw;
-    border: 1px solid green;
-}
-.hero-image img{
-    width: 30vw;
+
+.hero-page img{
+    width: 35vw;
 }
 
 /* dark */
