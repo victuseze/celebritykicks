@@ -37,26 +37,31 @@ function LandingPage() {
 
         {/* Category */}
         <div className="categories">
-            <div className="sec_1">
-                <div className="sneakers">
-                    <h3>Sneakers</h3>
-                </div>
-                <div className="dress-shoe">
-                    <h3>Dress Shoe</h3>
-                </div>
-                <div className="boots">
-                    <h3>Boots</h3>
-                </div>
+            <div className="categories-header">
+                <h2>Categories</h2>
             </div>
-            <div className="sec_2">
-                <div className="trainers">
-                    <h3>Trainers</h3>
+            <div className="categories-body">
+                <div className="sec_1">
+                    <div className="sneakers">
+                        <h3>Sneakers</h3>
+                    </div>
+                    <div className="dress-shoe">
+                        <h3>Dress Shoe</h3>
+                    </div>
+                    <div className="boots">
+                        <h3>Boots</h3>
+                    </div>
                 </div>
-                <div className="slider">
-                    <h3>Slides</h3>
-                </div>
-                <div className="sandals">
-                    <h3>Sandals</h3>
+                <div className="sec_2">
+                    <div className="trainers">
+                        <h3>Trainers</h3>
+                    </div>
+                    <div className="slider">
+                        <h3>Slides</h3>
+                    </div>
+                    <div className="sandals">
+                        <h3>Sandals</h3>
+                    </div>
                 </div>
             </div>
         </div>
