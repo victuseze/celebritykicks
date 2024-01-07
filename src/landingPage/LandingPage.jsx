@@ -31,7 +31,34 @@ function LandingPage() {
             </div>
         </div>
         <div className="dark">
+            <marquee behavior="scroll" direction="left">Scrolling text goes here</marquee>
 
+        </div>
+
+        {/* Category */}
+        <div className="categories">
+            <div className="sec_1">
+                <div className="sneakers">
+                    <h3>Sneakers</h3>
+                </div>
+                <div className="dress-shoe">
+                    <h3>Dress Shoe</h3>
+                </div>
+                <div className="boots">
+                    <h3>Boots</h3>
+                </div>
+            </div>
+            <div className="sec_2">
+                <div className="trainers">
+                    <h3>Trainers</h3>
+                </div>
+                <div className="slider">
+                    <h3>Slides</h3>
+                </div>
+                <div className="sandals">
+                    <h3>Sandals</h3>
+                </div>
+            </div>
         </div>
     </div>
   )
