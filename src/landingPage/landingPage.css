@@ -77,10 +77,11 @@ button{
     justify-content: space-around;
     align-items: center;
 }
-/* .categories .cat-g .sandals{
-    background-color: red;
-    height: 12vh;
-} */
-.sec_1{
+.sec_1,.sec_2{
     background-color: yellow;
+}
+.cat-g{
+    background-color: blue;
+    padding: 2rem;
+    margin-top: 0.8rem;
 }
