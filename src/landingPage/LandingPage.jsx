@@ -42,25 +42,31 @@ function LandingPage() {
             </div>
             <div className="categories-body">
                 <div className="sec_1">
-                    <div className="sneakers">
+                    <div className="cat-g sneakers">
                         <h3>Sneakers</h3>
+                        <img src={Hero} alt="" />
                     </div>
-                    <div className="dress-shoe">
+                    <div className="cat-g dress-shoe">
                         <h3>Dress Shoe</h3>
+                        <img src={Hero} alt="" />
                     </div>
-                    <div className="boots">
+                    <div className="cat-g boots">
                         <h3>Boots</h3>
+                        <img src={Hero} alt="" />
                     </div>
                 </div>
                 <div className="sec_2">
-                    <div className="trainers">
+                    <div className="cat-g trainers">
                         <h3>Trainers</h3>
+                        <img src={Hero} alt="" />
                     </div>
-                    <div className="slider">
+                    <div className="cat-g slider">
                         <h3>Slides</h3>
+                        <img src={Hero} alt="" />
                     </div>
-                    <div className="sandals">
+                    <div className="cat-g sandals">
                         <h3>Sandals</h3>
+                        <img src={Hero} alt="" />
                     </div>
                 </div>
             </div>
