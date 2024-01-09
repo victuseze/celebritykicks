@@ -74,11 +74,15 @@ button{
 }
 .categories-body{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
 }
-.sec_1,.sec_2{
+.sec_1{
     background-color: yellow;
+    display: flex;
+}
+.sec_2{
+    background-color: yellow;
+    display: flex;
 }
 .cat-g{
     background-color: blue;
