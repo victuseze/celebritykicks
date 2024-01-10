@@ -65,6 +65,7 @@ button{
 /* Categories */
 .categories{
     padding: 2rem;
+    background-color: black;
 }
 .categories-header{
     display: flex;
@@ -77,15 +78,25 @@ button{
     flex-direction: column;
 }
 .sec_1{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
 }
 .sec_2{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
 }
 .cat-g{
-    background-color: blue;
-    padding: 2rem;
+    background-color: white;
+    padding: 1rem;
     margin-top: 0.8rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+.cat-g h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+.cat-g img{
+    border-radius: 10px;
 }
