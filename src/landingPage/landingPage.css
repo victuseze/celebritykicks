@@ -57,7 +57,7 @@ button{
 
 /* dark */
 .dark{
-    /* background-color: black; */
+    background-color: black;
     height: 5vh;
     color: white;
 }
@@ -65,7 +65,7 @@ button{
 /* Categories */
 .categories{
     padding: 2rem;
-    /* background-color: black; */
+    background-color: white;
 }
 .categories-header{
     display: flex;
@@ -86,8 +86,6 @@ button{
     display: flex;
 }
 .cat-g{
-    background-color: white;
-    padding: 1rem;
     margin-top: 0.8rem;
     border-radius: 50%;
     margin-left: 2rem;

@@ -71,6 +71,25 @@ function LandingPage() {
                 </div>
             </div>
         </div>
+
+        {/* Trending */}
+        <div className="trending">
+            <h2>Trending</h2>
+            <div className="trending-shoes">
+                <div className="first-trending">
+                    <img src={Hero} alt="" />
+                    <h3>Dr Martinez</h3>
+                </div>
+                <div className="first-trending">
+                    <img src={Hero} alt="" />
+                    <h3>Nike Airforce1</h3>
+                </div>
+                <div className="first-trending">
+                    <img src={Hero} alt="" />
+                    <h3>Prada Slides</h3>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
