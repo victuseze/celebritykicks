@@ -98,3 +98,22 @@ button{
 .cat-g img{
     border-radius: 10px;
 }
+
+/* Trending */
+.trending{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.trending-shoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.trending-shoes h3{
+    text-align: center;
+}
