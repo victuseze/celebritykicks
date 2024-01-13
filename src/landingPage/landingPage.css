@@ -107,6 +107,12 @@ button{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    padding: 2rem;
+}
+.trending h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 .trending-shoes{
     display: flex;
