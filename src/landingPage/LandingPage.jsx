@@ -90,6 +90,9 @@ function LandingPage() {
                 </div>
             </div>
         </div>
+        <div className="footer">
+            <p>Footer</p>
+        </div>
     </div>
   )
 }
