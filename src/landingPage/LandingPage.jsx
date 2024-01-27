@@ -92,6 +92,15 @@ function LandingPage() {
         </div>
         <div className="footer">
             <p>Footer</p>
+            <nav>
+                <ul>
+                    <li>2024</li>
+                    <li>Refund Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of services</li>
+                    <li>Contact Infomation</li>
+                </ul>
+            </nav>
         </div>
     </div>
   )
