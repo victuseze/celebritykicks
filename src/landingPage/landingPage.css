@@ -101,7 +101,7 @@ button{
 
 /* Trending */
 .trending{
-    background-color: aqua;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,4 +140,11 @@ nav ul{
     font-weight: lighter;
     align-items: center;
     justify-content: center;
+}
+.trending::before{
+    content: '';
+    background-color: red;
+    width: 10px;
+    height: 4rem;
+    color: yellow;
 }
