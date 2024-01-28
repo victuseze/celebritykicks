@@ -148,3 +148,10 @@ nav ul{
     height: 4rem;
     color: yellow;
 }
+.categories::before{
+    content: '';
+    background-color: red;
+    width: 10px;
+    height: 4rem;
+    color: yellow;
+}
