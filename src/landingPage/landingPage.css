@@ -146,12 +146,19 @@ nav ul{
     background-color: red;
     width: 10px;
     height: 4rem;
-    color: yellow;
 }
-.categories::before{
+.categories-header::before{
     content: '';
-    background-color: red;
-    width: 10px;
-    height: 4rem;
-    color: yellow;
+    background-color: orange;
+    width: 40px;
+    height: 18px;
+}
+.categories-header::after{
+    content: '';
+    background-color: orange;
+    width: 40px;
+    height: 18px;
+}
+.categories h2{
+    margin: 2rem;
 }
